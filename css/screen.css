@@ -6,10 +6,15 @@ h1 {
   font-family: sans-serif;
 }
 
+body {
+  background: rgb(136, 40, 57);
+}
+
 html {
    line-height: 3em;
    font-family: sans-serif;
    font-size: 15px;
+
 }
 
 input {
@@ -30,7 +35,12 @@ label {
 }
 
 .button {
-  background-color: blanchedalmond;
+  background-color: rgb(31, 69, 92);
+}
+
+#venues {
+  text-align: center;
+
 }
 
 @media screen and (min-width: 620px) {
@@ -51,15 +61,17 @@ label {
     text-align: center;
   }
 
-  html {
-    border: solid;
-  }
 
   .button {
-    background-color: blanchedalmond;
     padding: 0 20px;
     float: right;
     margin-bottom: 10px;
     
   }
+}
+
+@media screen and (min-width: 960px) {
+  
+  }
+
 }
