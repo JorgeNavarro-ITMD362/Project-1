@@ -7,10 +7,9 @@
 h1, .lato-bold{
   text-align: center;
   margin-bottom: 30px;
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 1.7em; /* 30px; */
   font-family: "Lato";
-
+  line-height: 1.5em; /* 26px */
 }
 
 body {
@@ -55,7 +54,6 @@ label {
   h1 {
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 30px;
     text-underline-position: under;
   }
 
