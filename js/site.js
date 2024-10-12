@@ -3,3 +3,4 @@ document.body.addEventListener('mouseout', e => {
   if (!button) { return; }
   button.style.backgroundColor = 'rgb(136, 40, 57)';
 });
+
