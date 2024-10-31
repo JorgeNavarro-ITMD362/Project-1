@@ -15,13 +15,18 @@
   <h1>Fill out this form to stay updated with The Strokes upcoming live shows!</h1>
   <form action="#null" method="post" autocomplete="on">
     <div id="email">
-      <label><input type="email" name="email_field" placeholder="Email Address"></label>
+      <label for="myform_email">Email Address:</label>
+      <input type="email" name="email_field" placeholder="Email Address">
     </div>
     <div id="phone">
-      <label><input type="tel" name="phone_field" placeholder="Phone Number"></label>
+      <label for="myform_phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" 
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
     </div>
     <div id="dob">
-      <label><input type="text" name="dob_field" placeholder="Date of Birth"></label>
+      <label for="myform_dob">Date of Birth:</label>
+      <input type="text" name="dob_field" placeholder="Date of Birth">
     </div>
     <label for="venues">Select the city you would like to attend a show:</label>
     <select name="venues" id="venues">

@@ -2,16 +2,19 @@ h1, .lato-bold{
   text-align: center;
   margin-bottom: 30px;
   font-size: 1.7em; /* 30px; */
-  font-family: "Lato";
+  font-family: 'Lato', arial;
 }
 
 body {
   background: rgb(136, 40, 57);
 }
 
-html, .lato-light {
+
+
+html, .lato-bold {
    line-height: 3em; /* 52px */
-   font-size: 15px; 
+   font-size: 18px; 
+   font-family: 'Lato', arial;
 }
 
 input {
@@ -22,7 +25,7 @@ input {
 }
 
 div {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -31,12 +34,17 @@ label {
   height: 30px;
 }
 
+
 .button {
   background-color: rgb(31, 69, 92);
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
 #venues {
   text-align: center;
+  padding-left: 10px;
 
 }
 
@@ -59,11 +67,23 @@ label {
 
 
   .button {
-    padding: 0 20px;
-    float: right;
     margin-bottom: 10px;
-    
+    width: 50%;
   }
+
+  div{
+    width: 70%;
+  }
+
+  body {
+    padding-top: 20px;
+  }
+
+  html, .lato-bold {
+   line-height: 4em; /* 52px */
+   font-size: 15px; 
+   font-family: 'Lato', arial;
+}
 }
 
 @media screen and (min-width: 960px) {
@@ -75,4 +95,26 @@ label {
 
   .button {
     text-align: center;
+    width: 20%;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  body {
+    padding-top: 50px;
+  }
+
+  div {
+    width: 30%;
+  }
+
+  label {
+    padding-left: 20px;
+  }
+
+  html, .lato-bold {
+     line-height: 5em; /* 86px */
+     font-size: 13px; 
+     font-family: 'Lato', arial;
   }
